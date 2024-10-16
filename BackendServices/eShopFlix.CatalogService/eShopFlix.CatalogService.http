@@ -1,0 +1,6 @@
+@eShopFlix.CatalogService_HostAddress = http://localhost:5154
+
+GET {{eShopFlix.CatalogService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

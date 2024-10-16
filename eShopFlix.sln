@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackendServices", "BackendServices", "{8E5C6D20-06D5-4983-8AC8-048964E8451B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontendServices", "FrontendServices", "{362B37E7-4361-47B1-B85E-D41DE955FDD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGateways", "APIGateways", "{59A9DEAF-BFBE-406D-9DCD-2ECE03432567}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.GateWay.Ocelot", "APIGateways\eShopFlix.GateWay.Ocelot\eShopFlix.GateWay.Ocelot.csproj", "{69135B4C-BED8-496F-9DF3-4D25AFB26C25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.AuthService", "BackendServices\eShopFLix.AuthService\eShopFlix.AuthService.csproj", "{13CE6F16-AA2F-4901-BB81-3FB3988E63F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.CartService", "BackendServices\eShopFlix.CartService\eShopFlix.CartService.csproj", "{EFD0925D-BC01-4949-AD03-C9E50EADD7D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.CatalogService", "BackendServices\eShopFlix.CatalogService\eShopFlix.CatalogService.csproj", "{16CC1132-9426-4E5D-B89E-3D70A6ED34FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.OrderService", "BackendServices\eShopFlix.OrderService\eShopFlix.OrderService.csproj", "{4E3827F8-E5FD-42A3-BF16-E885A9CFF1E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.PaymentService", "BackendServices\eShopFlix.PaymentService\eShopFlix.PaymentService.csproj", "{8C649D6D-F8BF-4A54-8E84-DB60CA82ACE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.StockService", "BackendServices\eShopFlix.StockService\eShopFlix.StockService.csproj", "{2C0B5F91-77F4-45CB-842E-4E34C15401A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.Client", "FrontendServices\eShopFlix.Client\eShopFlix.Client.csproj", "{2A486D50-2466-432F-93FE-AADF7499D446}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.Support", "FrontendServices\eShopFlix.Support\eShopFlix.Support.csproj", "{BE4EEE6A-0FA1-4F17-B053-77041C746C38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69135B4C-BED8-496F-9DF3-4D25AFB26C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69135B4C-BED8-496F-9DF3-4D25AFB26C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69135B4C-BED8-496F-9DF3-4D25AFB26C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69135B4C-BED8-496F-9DF3-4D25AFB26C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13CE6F16-AA2F-4901-BB81-3FB3988E63F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13CE6F16-AA2F-4901-BB81-3FB3988E63F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13CE6F16-AA2F-4901-BB81-3FB3988E63F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13CE6F16-AA2F-4901-BB81-3FB3988E63F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD0925D-BC01-4949-AD03-C9E50EADD7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD0925D-BC01-4949-AD03-C9E50EADD7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD0925D-BC01-4949-AD03-C9E50EADD7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD0925D-BC01-4949-AD03-C9E50EADD7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16CC1132-9426-4E5D-B89E-3D70A6ED34FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16CC1132-9426-4E5D-B89E-3D70A6ED34FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16CC1132-9426-4E5D-B89E-3D70A6ED34FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16CC1132-9426-4E5D-B89E-3D70A6ED34FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3827F8-E5FD-42A3-BF16-E885A9CFF1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3827F8-E5FD-42A3-BF16-E885A9CFF1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3827F8-E5FD-42A3-BF16-E885A9CFF1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3827F8-E5FD-42A3-BF16-E885A9CFF1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C649D6D-F8BF-4A54-8E84-DB60CA82ACE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C649D6D-F8BF-4A54-8E84-DB60CA82ACE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C649D6D-F8BF-4A54-8E84-DB60CA82ACE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C649D6D-F8BF-4A54-8E84-DB60CA82ACE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0B5F91-77F4-45CB-842E-4E34C15401A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0B5F91-77F4-45CB-842E-4E34C15401A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0B5F91-77F4-45CB-842E-4E34C15401A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0B5F91-77F4-45CB-842E-4E34C15401A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A486D50-2466-432F-93FE-AADF7499D446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A486D50-2466-432F-93FE-AADF7499D446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A486D50-2466-432F-93FE-AADF7499D446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A486D50-2466-432F-93FE-AADF7499D446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4EEE6A-0FA1-4F17-B053-77041C746C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4EEE6A-0FA1-4F17-B053-77041C746C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4EEE6A-0FA1-4F17-B053-77041C746C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4EEE6A-0FA1-4F17-B053-77041C746C38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69135B4C-BED8-496F-9DF3-4D25AFB26C25} = {59A9DEAF-BFBE-406D-9DCD-2ECE03432567}
+		{13CE6F16-AA2F-4901-BB81-3FB3988E63F4} = {8E5C6D20-06D5-4983-8AC8-048964E8451B}
+		{EFD0925D-BC01-4949-AD03-C9E50EADD7D6} = {8E5C6D20-06D5-4983-8AC8-048964E8451B}
+		{16CC1132-9426-4E5D-B89E-3D70A6ED34FB} = {8E5C6D20-06D5-4983-8AC8-048964E8451B}
+		{4E3827F8-E5FD-42A3-BF16-E885A9CFF1E9} = {8E5C6D20-06D5-4983-8AC8-048964E8451B}
+		{8C649D6D-F8BF-4A54-8E84-DB60CA82ACE9} = {8E5C6D20-06D5-4983-8AC8-048964E8451B}
+		{2C0B5F91-77F4-45CB-842E-4E34C15401A9} = {8E5C6D20-06D5-4983-8AC8-048964E8451B}
+		{2A486D50-2466-432F-93FE-AADF7499D446} = {362B37E7-4361-47B1-B85E-D41DE955FDD3}
+		{BE4EEE6A-0FA1-4F17-B053-77041C746C38} = {362B37E7-4361-47B1-B85E-D41DE955FDD3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12FDE447-30D6-444E-8B57-128376A105D8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@eShopFlix.PaymentService_HostAddress = http://localhost:5010
+
+GET {{eShopFlix.PaymentService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

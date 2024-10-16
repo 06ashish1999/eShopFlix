@@ -1,0 +1,6 @@
+@eShopFlix.OrderService_HostAddress = http://localhost:5075
+
+GET {{eShopFlix.OrderService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
