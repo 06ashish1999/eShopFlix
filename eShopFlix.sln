@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGateways", "APIGateways"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.GateWay.Ocelot", "APIGateways\eShopFlix.GateWay.Ocelot\eShopFlix.GateWay.Ocelot.csproj", "{69135B4C-BED8-496F-9DF3-4D25AFB26C25}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.AuthService", "BackendServices\eShopFLix.AuthService\eShopFlix.AuthService.csproj", "{13CE6F16-AA2F-4901-BB81-3FB3988E63F4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.CartService", "BackendServices\eShopFlix.CartService\eShopFlix.CartService.csproj", "{EFD0925D-BC01-4949-AD03-C9E50EADD7D6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.CatalogService", "BackendServices\eShopFlix.CatalogService\eShopFlix.CatalogService.csproj", "{16CC1132-9426-4E5D-B89E-3D70A6ED34FB}"
@@ -27,6 +25,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.Client", "Fronten
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.Support", "FrontendServices\eShopFlix.Support\eShopFlix.Support.csproj", "{BE4EEE6A-0FA1-4F17-B053-77041C746C38}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eShopFlix.AuthService", "eShopFlix.AuthService", "{667E5CC7-2533-4474-98E5-656B0F424BA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.AuthService.API", "BackendServices\eShopFlix.AuthService\eShopFLix.AuthService.API\eShopFlix.AuthService.API.csproj", "{1BFBCCC7-752E-4FF9-B493-28D74E2070A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.AuthService.Core", "BackendServices\eShopFlix.AuthService\eShopFlix.AuthService.Core\eShopFlix.AuthService.Core.csproj", "{9C49BBF6-6FE7-492E-8863-8C96A916369C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.AuthService.Infrastructure", "BackendServices\eShopFlix.AuthService\eShopFlix.AuthService.Infrastructure\eShopFlix.AuthService.Infrastructure.csproj", "{3CFAE6B8-C628-4F0B-8C8F-131CE014DE82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopFlix.AuthService.ApplicationServices", "BackendServices\eShopFlix.AuthService\eShopFlix.AuthService.ApplicationServices\eShopFlix.AuthService.ApplicationServices.csproj", "{5CCA3645-5708-433F-96E3-346E820B3D43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,10 +45,6 @@ Global
 		{69135B4C-BED8-496F-9DF3-4D25AFB26C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69135B4C-BED8-496F-9DF3-4D25AFB26C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69135B4C-BED8-496F-9DF3-4D25AFB26C25}.Release|Any CPU.Build.0 = Release|Any CPU
-		{13CE6F16-AA2F-4901-BB81-3FB3988E63F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{13CE6F16-AA2F-4901-BB81-3FB3988E63F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{13CE6F16-AA2F-4901-BB81-3FB3988E63F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{13CE6F16-AA2F-4901-BB81-3FB3988E63F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EFD0925D-BC01-4949-AD03-C9E50EADD7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EFD0925D-BC01-4949-AD03-C9E50EADD7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFD0925D-BC01-4949-AD03-C9E50EADD7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,13 +73,28 @@ Global
 		{BE4EEE6A-0FA1-4F17-B053-77041C746C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE4EEE6A-0FA1-4F17-B053-77041C746C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE4EEE6A-0FA1-4F17-B053-77041C746C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BFBCCC7-752E-4FF9-B493-28D74E2070A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BFBCCC7-752E-4FF9-B493-28D74E2070A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BFBCCC7-752E-4FF9-B493-28D74E2070A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BFBCCC7-752E-4FF9-B493-28D74E2070A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C49BBF6-6FE7-492E-8863-8C96A916369C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C49BBF6-6FE7-492E-8863-8C96A916369C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C49BBF6-6FE7-492E-8863-8C96A916369C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C49BBF6-6FE7-492E-8863-8C96A916369C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CFAE6B8-C628-4F0B-8C8F-131CE014DE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFAE6B8-C628-4F0B-8C8F-131CE014DE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFAE6B8-C628-4F0B-8C8F-131CE014DE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFAE6B8-C628-4F0B-8C8F-131CE014DE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CCA3645-5708-433F-96E3-346E820B3D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCA3645-5708-433F-96E3-346E820B3D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCA3645-5708-433F-96E3-346E820B3D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCA3645-5708-433F-96E3-346E820B3D43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{69135B4C-BED8-496F-9DF3-4D25AFB26C25} = {59A9DEAF-BFBE-406D-9DCD-2ECE03432567}
-		{13CE6F16-AA2F-4901-BB81-3FB3988E63F4} = {8E5C6D20-06D5-4983-8AC8-048964E8451B}
 		{EFD0925D-BC01-4949-AD03-C9E50EADD7D6} = {8E5C6D20-06D5-4983-8AC8-048964E8451B}
 		{16CC1132-9426-4E5D-B89E-3D70A6ED34FB} = {8E5C6D20-06D5-4983-8AC8-048964E8451B}
 		{4E3827F8-E5FD-42A3-BF16-E885A9CFF1E9} = {8E5C6D20-06D5-4983-8AC8-048964E8451B}
@@ -83,6 +102,11 @@ Global
 		{2C0B5F91-77F4-45CB-842E-4E34C15401A9} = {8E5C6D20-06D5-4983-8AC8-048964E8451B}
 		{2A486D50-2466-432F-93FE-AADF7499D446} = {362B37E7-4361-47B1-B85E-D41DE955FDD3}
 		{BE4EEE6A-0FA1-4F17-B053-77041C746C38} = {362B37E7-4361-47B1-B85E-D41DE955FDD3}
+		{667E5CC7-2533-4474-98E5-656B0F424BA7} = {8E5C6D20-06D5-4983-8AC8-048964E8451B}
+		{1BFBCCC7-752E-4FF9-B493-28D74E2070A4} = {667E5CC7-2533-4474-98E5-656B0F424BA7}
+		{9C49BBF6-6FE7-492E-8863-8C96A916369C} = {667E5CC7-2533-4474-98E5-656B0F424BA7}
+		{3CFAE6B8-C628-4F0B-8C8F-131CE014DE82} = {667E5CC7-2533-4474-98E5-656B0F424BA7}
+		{5CCA3645-5708-433F-96E3-346E820B3D43} = {667E5CC7-2533-4474-98E5-656B0F424BA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {12FDE447-30D6-444E-8B57-128376A105D8}
